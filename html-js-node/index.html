@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+
+    <title>Document</title>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 class="header">User Profile</h1>
+      <img src="./profile-1.jpg" style="width:12rem;display: block;"/>
+      <p style="margin-top:2rem;">Nome:</p>
+      <h3 id="name">Arturo</h3>
+      <hr />
+      <p style="margin-top:2rem;">Email:</p>
+      <h3 id="email">arturetti@moretti.io</h3>
+      <hr />
+      <p style="margin-top:2rem;">Interessi:</p>
+      <h3 id="interest">coding</h3>
+      <hr />
+      <button class="button" onclick="editProfile()">Salva</button>
+    </div>
+    <div class="container-edit">
+      <h1 class="header">User Profile</h1>
+      <img src="profile-picture"  />
+      Nome: <input id="input-name" type="text" />
+      <hr />
+      Email: <input id="input-email" type="email" />
+      <hr />
+      Interessi: <input id="input-interest" type="text" />
+      <hr />
+      <button class="button" onclick="saveProfile()">Salva</button>
+    </div>
+
+  </body>
+</html>
